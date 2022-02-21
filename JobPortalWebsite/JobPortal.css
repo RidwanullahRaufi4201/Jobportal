@@ -1,0 +1,194 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.container{
+	width: 100%;
+}
+.container * a{
+	text-decoration: none;
+}
+
+.bgpic{
+	width: 100%;
+	background-image: url('images/hero-image.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 380px;
+	margin-bottom:50px; 
+}
+.menu{
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	color: white;
+	justify-content: space-between;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+.menu nav a{
+	color: white;
+	font-size: 18px;
+	font-weight: 400;
+	margin: 10px;
+}
+.menu nav a:last-child{
+	color: white;
+	background: blue;
+	padding: 5px 10px;
+
+}
+.menu #logo{
+	font-size: 30px;
+	font-weight: 700;
+}
+#content{
+	width: 93%;
+	margin-left: auto;
+	margin-top: 130px;
+	color: white;
+
+}
+
+#content h2{
+	font-size: 40px;
+	font-weight: 900;
+	margin-bottom: 10px;
+}
+#content p{
+	margin-bottom: 30px;
+}
+#content a{
+	background-color:blue;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+}
+
+#offer{
+	width: 87%;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 60px;
+
+}
+#offer a{
+	text-decoration: none;
+	font-size: 20px;
+	color: blue;
+}
+
+.flex{
+	width: 89%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 70px;
+	display: flex;
+}
+
+.flexitem{
+	width: 30%;
+	border-right: 0.5px solid black;
+	padding: 5px;
+	margin-bottom: 40px;
+}
+.flexitem h1{
+	font-weight: 700;
+	margin-bottom: 8px;
+	font-size: 26px;
+}
+.flexitem h4{
+	margin-bottom: 9px;
+}
+
+.flexitem p{
+	text-align: justify;
+
+}
+
+.features{
+	width: 88%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 70px;
+
+}
+
+.flexbox{
+	display: flex;
+}
+
+.features h1{
+	margin-bottom: 40px;
+	font-size: 30px;
+}
+.subfeatures{
+	margin: 10px;
+}
+
+.subfeatures img{
+	width: 60px;
+	margin-bottom: 10px;
+
+}
+.subfeatures h5{
+	font-size: 17px;
+}
+
+
+.last{
+	background-image: url('images/Newsletter-image.png');
+	background-size: cover;
+	background-color: black;
+	color: white;
+	margin-bottom: 80px;
+	height: 200px;
+}
+
+.last h1{
+	font-size: 35px;
+	padding: 20px 20px 0px 20px;
+	margin-left: 30px;
+}
+.last p{
+	padding: 20px 20px 0px 20px;
+margin-left: 30px;
+}
+
+
+.last h1,p{
+	width: 88%;
+	margin-left: 30px;
+}
+
+.last input{
+	margin-left: 50px;
+	margin-top: 15px;
+	margin-right: 20px;
+	padding: 2px 5px; 
+}
+.last a{
+	text-decoration: none;
+	color: white;
+	background: blue;
+	padding: 4px 10px;
+}
+
+footer{
+   display: flex;
+   justify-content: space-around;
+   width: 75%;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 10px;
+}
+footer a{
+	text-decoration: none;
+	color: gray;
+	font-size: 20px;
+
+}
